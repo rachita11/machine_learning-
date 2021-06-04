@@ -1,4 +1,4 @@
-#This project aims at predicting a final student grade based on some of their features of yearly performances
+#This project aims at predicting a final student grade based on some of their features of yearly performances by using Linear regression model
 #and compares it with the actual grade obtained
 #it also gives the accuracy of the predictions made
 
