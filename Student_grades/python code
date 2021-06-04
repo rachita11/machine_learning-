@@ -1,3 +1,7 @@
+#This project aims at predicting a final student grade based on some of their features of yearly performances
+#and compares it with the actual grade obtained
+#it also gives the accuracy of the predictions made
+
 import pandas as pd
 import numpy as np
 import sklearn
@@ -25,4 +29,4 @@ print('Intercept: \n', linear.intercept_)
 predictions = linear.predict(x_test)
 
 for x in range(len(predictions)):
-    print(predictions[x], x_test[x], y_test[x])
+    print("prediction: ",predictions[x],"original: ", y_test[x])
