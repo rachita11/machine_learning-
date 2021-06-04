@@ -37,7 +37,8 @@ print(model.coef_)
 
 p = model.predict(x)
 
+print("Value in $1000's")
 for i in range(len(p)):
-    print(p[i],"  ",y[i])
+    print("prediction: ",p[i]," Real: ",y[i])
 
 print("Accuracy=",(model.score(x,y)*100),"%")
