@@ -1,5 +1,6 @@
 #project
 #predicting if a person would purchase an item through social media marketing based on previos data behaviour
+#using LOGISTIC REGRESSION
 
 import pandas as pd
 import numpy as np
