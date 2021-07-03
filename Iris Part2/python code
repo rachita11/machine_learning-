@@ -35,3 +35,6 @@ plt.scatter(centroids[:,0] , centroids[:,1] ,marker='s', s = 100, color = 'k')
 #labeling the clusters with the help of our iris dataset
 plt.legend(['Iris-setosa','Iris-versicolor','Iris-virginica'])
 plt.show()
+
+
+#find the output and final graph in this file called "Iris part2"
